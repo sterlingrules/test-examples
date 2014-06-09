@@ -1,0 +1,29 @@
+{
+  "name": "test-examples",
+  "version": "0.0.1",
+  "authors": [
+    "Sterling <me@mynameissterling.com>"
+  ],
+  "description": "Test Examples",
+  "main": "app.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.16",
+    "angular-route": "~1.2.16",
+    "angular-resource": "~1.2.16",
+    "jasmine": "~2.0.0",
+    "angular-mocks": "~1.2.16",
+    "jquery": "~2.1.1",
+    "jquery-placeholder": "~2.0.8",
+    "jquery-ui": "~1.10.4",
+    "jasmine-jquery": "~2.0.5"
+  }
+}

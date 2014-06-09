@@ -1,0 +1,31 @@
+<form id="new_position">
+  <input type="text" id="position_stock" placeholder="Enter ticker or company name" />
+  <input type="hidden" id="entry_price" />
+
+  <select id="position_recommendation">
+    <option value="">Rec.:</option>
+    <option value="value"></option>
+  </select>
+
+  <select id="position_entry_size_percentage">
+    <option value="">Entry Size %:</option>
+    <option value="value"></option>
+  </select>
+
+  <select id="position_expected_return">
+    <option value="">Expected Return:</option>
+    <option value="value"></option>
+  </select>
+
+  <select id="position_time_frame">
+    <option value="">Time Frame:</option>
+    <option value="value"></option>
+  </select>
+
+  <fieldset id="position_comment">
+    <input type="text" placeholder="Write a comment..." class="position_post" />
+  </fieldset>
+
+  <a id="close-position-dialog" class="web" rel="close-modal">Cancel</a>
+  <input type="submit" value="Submit" id="position-submit" disabled="disabled" />
+</form>
